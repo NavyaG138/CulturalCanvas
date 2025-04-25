@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELHI: The Heart Of Indian History</title>
+    <link rel="stylesheet" href="styles/delhi.css">
+
+    <!-- transition -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+        
+        
+        .image-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 15px;
+            left: 30vw;
+            perspective: 1200px;
+            /* Create a 3D effect */
+            transition: box-shadow 0.6s ease;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .image-container .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.4);
+            transition: transform 0.6s ease, background 0.6s ease;
+            transform: rotateX(90deg);
+            /* Start with overlay rotated away */
+        }
+
+        .image-container .overlay h2,
+        .image-container .overlay p {
+            margin: 0;
+            opacity: 0;
+            /* Initial opacity for text */
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        /* Hover Effects */
+        .image-container:hover {
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8);
+            /* Enhanced shadow */
+        }
+
+        .image-container:hover img {
+            transform: scale(1.1) rotate(2deg);
+            /* Slight zoom and rotation */
+        }
+
+        .image-container:hover .overlay {
+            transform: rotateX(0deg);
+            /* Rotate overlay into view */
+            background: rgba(0, 0, 0, 0.6);
+            /* Darker background */
+        }
+
+        .image-container:hover .overlay h2,
+        .image-container:hover .overlay p {
+            opacity: 1;
+            /* Fade in text */
+        }
+
+        .image-container:hover .overlay h2 {
+            transform: translateY(0) rotateX(0);
+            /* Slide up effect with rotation */
+        }
+
+        .image-container:hover .overlay p {
+            transform: translateY(20px) rotateX(10deg);
+            /* Slide up with slight tilt */
+        }
+
+        .overlay h2 {
+            font-family: "Permanent Marker", cursive;
+            font-weight: 700;
+            font-style: normal;
+            font-size: 4.6rem;
+        }
+
+        .overlay p {
+            font-size: 1.1rem;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="boxx">
+        <div class="main">
+            <nav>
+                <div class>
+                    <a href="index.html" class="btn">HOME</a>
+                   
+                </div>
+                <div>
+                    <a href="maharashtra.html" class="btn">MAHARASHTRA</a>
+                    <a href="punjab.html" class="btn">PUNJAB</a>
+                    <a href="rajasthan.html" class="btn">RAJASTHAN</a>
+                    <a href="up.html" class="btn">UTTAR PRADESH</a>
+                    <a href="tn.html" class="btn">TAMIL NADU</a>
+                </div>
+            </nav>
+
+            <div class="box"></div>
+            <div class="state">
+                <span>DELHI</span>
+                <span>The Heart Of Indian History</span>
+            </div>
+            <!-- <div class="separation"></div> -->
+
+        </div>
+
+    </div>
+
+    <div class="separation" data-aos="fade-right"></div>
+    <div class="mosaic-section">
+        <div class="mosaic-container">
+            <div class="mosaic-item">
+                <img src="assets/images/Humayun.jpg" alt="Culture Image 1">
+                <div class="mosaic-overlay">
+                    <h3>Humayun's Tomb</h3>
+                    <p>Humayun's Tomb, often called the "mini Taj Mahal," is where Mughal architecture found its groove,
+                        blending Persian elegance with Indian grandeur. Built in 1570, it's the first garden-tomb in
+                        India, a lush oasis in the heart of Delhi.</p>
+                </div>
+            </div>
+
+            <!-- Clickable Qutub Minar -->
+            <a href="https://momento360.com/e/u/c253742e5037415e982132d64d2eae27?utm_campaign=embed&utm_source=other&heading=360.22&pitch=-2.86&field-of-view=100&size=medium&display-plan=true"
+                target="_blank">
+                <div class="mosaic-item">
+                    <img src="assets/images/image copy.png" alt="Qutub Minar">
+                    <div class="mosaic-overlay">
+                        <h3><u>Qutub Minar</u></h3>
+                        <p>Qutub Minar: The Qutub Minar, a 73-meter-high marvel, is the world’s tallest brick minaret,
+                            built in the 13th century. It’s a symbol of victory, with intricate carvings that tell
+                            stories of a bygone era.</p>
+                    </div>
+                </div>
+            </a>
+            <div class="mosaic-item">
+                <img src="assets/images/image copy 2.png" alt="Culture Image 3">
+                <div class="mosaic-overlay">
+                    <h3>Red Fort</h3>
+                    <p>Red Fort: The Red Fort, built in 1648 by Shah Jahan, is Delhi’s majestic fortress. Its red
+                        sandstone walls have witnessed centuries of history, from Mughal splendor to India’s
+                        Independence Day celebrations.</p>
+                </div>
+            </div>
+            <!-- Add more mosaic items as needed -->
+        </div>
+    </div>
+
+
+
+    <!-- exp -->
+    <div class="history-section">
+        <h2>Delhi: A Brief Historical Overview</h2>
+        <p>Delhi, the capital of India, has a rich and varied history, marked by influential dynasties and significant
+            battles.</p>
+
+        <h3>Key Dynasties and strongpires:</h3>
+        <ul>
+            <li><strong>Delhi Sultanate (c. 1206 CE - 1526 CE):</strong>
+                <ul>
+                    <li><strong>Mamluk Dynasty</strong>: Founded by Qutb-ud-din Aibak.</li>
+                    <li><strong>Khilji Dynasty</strong>: Expanded the Sultanate and implemented reforms.</li>
+                    <li><strong> Tughlaq Dynasty</strong>: Known for architectural achievements.</li>
+                    <li><strong> Sayyid and Lodi Dynasties</strong>: The final sultans before Mughal rule.</li>
+                </ul>
+            </li>
+            <li><strong>Mughal Empire (c. 1526 CE - 1857 CE):</strong>
+                <ul>
+                    <li><strong>Babur:</strong> Established Mughal rule after the Battle of Panipat.</li>
+                    <li><strong>Akbar:</strong> Developed Delhi as a major cultural and administrative center.</li>
+                    <li><strong>Shah Jahan:</strong> Built the Red Fort and expanded the city.</li>
+                </ul>
+            </li>
+            <li><strong>British Raj (c. 1857 CE - 1947 CE):</strong> Delhi became a major British administrative cente
+            </li>
+            <li><strong>Post-Independence (1947 CE - Present):</strong>
+                <ul>
+                    <li><strong>New Delhi:</strong> Became the capital of independent India</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="image-container">
+        <img src="assets/images/del1.webp" alt="Delhi Image">
+        <div class="overlay">
+            <div>
+                <h2>Do you know?</h2>
+                <p> Red Fort was not always known by its current name? It was originally known as “Qila-e-Mubarak”. This
+                    name simplifies to “The Blessed Fort”.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="history-section">
+        <h3>Key Battles:</h3>
+        <ul>
+            <li><strong>Battle of Panipat (1526 CE):</strong> Babur defeated Ibrahim Lodi, founding the Mughal Empire.
+            </li>
+            <li><strong>Battle of Delhi (1857 CE):</strong> British recaptured Delhi during the Indian Rebellion of
+                1857.</li>
+        </ul>
+
+        <h3>Cultural Significance:</h3>
+        <ul>
+            <li><strong>Monuments:</strong>
+                <ul>
+                    <li>Red Fort</li>
+                    <li>Qutub Minar</li>
+                    <li>India Gate</li>
+                    <li>Humayun's Tomb</li>
+                    <li>Safdarganj Fort</li>
+                </ul>
+            </li>
+            <li><strong>Festivals:</strong>
+                <ul>
+                    <li><strong>Diwali</strong> </li>
+                    <li><strong>Eid</strong></li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>Delhi’s history is defined by powerful dynasties, key battles, and its role as a cultural and political hub.
+        </p>
+    </div>
+
+
+
+
+
+    <!-- transition -->
+    <script>
+        ScrollReveal().reveal('.state', {
+            duration: 1200,
+            origin: 'bottom',
+            distance: '50px',
+            easing: 'ease-in-out',
+            reset: true, // Animation repeats when elstrongent comes into view again
+        });
+
+        ScrollReveal().reveal('.separation', {
+            duration: 1500,
+            origin: 'left',
+            distance: '100px',
+            easing: 'ease-in-out',
+        });
+    </script>
+
+
+    <!-- exp  js -->
+
+
+
+</body>
+
+</html>

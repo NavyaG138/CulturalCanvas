@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 200vh;
+}
+
+.main{
+    
+    background-image: url(../assets/images/l.avif);
+    
+    height: 80vh;
+    
+    
+    
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1400px , 100vw);
+}
+
+.black_box{
+    
+    height: 80vh;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons button{
+    border: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+
+
+nav h2{
+    position: relative;
+    font-size: 2rem;
+    z-index: 1;
+    color: white;
+}
+
+nav ul li button{
+    font-size: 1rem;
+}
+
+/* css hover transition  */
+
+
+/* EXPERIMENT */
+
+html,body {
+    font-family: 'Raleway', sans-serif;
+    /* padding: 3em 2em; */
+    font-size: 18px;
+    /* background: #222; */
+    /* color: #222 */
+    color: whitesmoke;
+}
+
+.text-box{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* .spoiler:hover{
+    .spoiler {
+        color: transparent;
+        font-size: 1rem;
+        background-position: right;
+        background-size: 100% 100%;
+        background-image: linear-gradient(#a0aec0, #a0aec0);
+        display: inline-block;
+        white-space: nowrap; 
+        background-repeat: no-repeat;
+        transition: all 500ms ease-in-out;
+        height: 100%;
+      }
+} */
+
+h1,h2 {
+    font-weight: bold;
+    margin: 0.4em 0;
+  }
+  h1 { font-size: 4.5em; }
+  h2 {
+    color: #777;
+    font-size: 3rem;
+  }
+
+  /* Timeline */
+
+  /* .secondsection {
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.secondsection h1 {
+    font-size: 1.6rem;
+}
+
+.secondsection {
+    height: 80vh;
+} */
+
+/* .secondsection .box {
+    background-color: white;
+    height: 3px;
+    width: 75vw;
+    margin: 7rem 0;
+    display: flex;
+    
+}
+
+.secondsection .vertical {
+    width: 3.5px;
+    height: 5rem;
+    background-color: white;
+    margin: 0 6rem;
+}
+
+.image-top {
+    width: 60px;
+    position: relative;
+    top: -62px;
+    right: 26px;
+}
+
+.videoedit {
+    width: 60px;
+} */
+
+/* .vertical-title h2 {
+    font-size: 1.5rem;
+    position: relative;
+    top: 40px;
+    right: 85px;
+    display: flex;
+    text-align: center;
+    
+}
+
+.vertical2{
+    position: relative;
+    right: 10px;
+    top: 8px;
+}
+
+.vertical3{
+    position: relative;
+    right: -25px;
+    top: 15px;
+
+}
+.vertical4{
+    position: relative;
+    right: 5px;
+    top: 15px;
+} */
+
+
+/* .title-1{
+    font-size: 2rem;
+    position: relative;
+    top: 20px;
+    right: -5px;
+    display: flex;
+    text-align: center;
+}
+.desc-1{
+    color: gray;
+    font-size: 14px;
+    position: relative;
+    top: -20px;
+    right: 58px;
+    width: 110px;
+    text-align: center;
+} */
+/* .title-2 h2{
+    font-size: 2rem;
+    top: 20px;
+    right: 80px;
+    display: flex;
+    text-align: center;
+}
+
+.vertical-desc {
+    color: gray;
+    font-size: 14px;
+    position: relative;
+    top: 50px;
+    right: 58px;
+    width: 110px;
+    text-align: center;
+}
+
+.image-second {
+    right: 47px;
+    width: 102px;
+    position: relative;
+    top: -63px; 
+}*/
+
+/* .title-2 {
+    position: relative;
+    left: 30px;
+    top: -6px;
+} */
+
+
+main .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 160px;
+    position: relative;
+    right: 5vh;
+    display: flex;
+}
+main .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    position: relative;
+    right: 1vw;
+    margin: 0 90px;
+}
+/* The image in the timeline */
+.image-top{
+    width: 60px;
+    position: relative;
+    top: -50px;
+    right: 25px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 75px;
+    right: 45px;
+    width: 150px;
+
+}
+
+  /* Base */
+/* body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial;
+    font-size: 1.5rem;
+    line-height: 150%;
+  } */
+  
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    height: 45vh;
+  }
+
+ .small-container{
+    width: 80%;
+    margin: auto;
+ }
+
+  .container {
+    
+    text-align: center;
+    margin: auto;
+    /* border: 2px solid red; */
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  
+  .spoiler {
+    color: transparent;
+    background-position: right;
+    background-size: 100% 100%;
+    background-image: linear-gradient(#a0aec0, #a0aec0);
+    display: inline;
+    background-repeat: no-repeat;
+    transition: all 500ms ease-in-out;
+  }
+
+ 
+  .spoiler:hover {
+    color: #ebebeb;
+    background-size: 0% 100%;
+  }
+
+  /* Styling the clip art text */
+
+  .mosaic-section {
+    padding: 30px 0;
+    background-color: black; /* Your desired background color for the section */
+    position: relative;
+}
+
+.mosaic-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    background-color: transparent; /* Ensure the container's background is transparent */
+}
+
+.mosaic-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent; /* Make sure the items themselves have no background */
+}
+
+.mosaic-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    transition: transform 0.5s ease;
+}
+
+.mosaic-item:hover img {
+    transform: scale(1.1);
+}
+
+.mosaic-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.About{
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+
+nav h2 {
+    position: relative;
+    font-size: 2rem;
+    z-index: 1;
+    color: white;
+    transition: font-size 0.2s ease-in-out;
+  }
+  
+  nav h2:hover {
+    font-size: 2.3rem;
+  }
+  
+.spoiler{
+    font-size: 1.2rem;
+}
+  .About {
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    transition: font-size 0.2s ease-in-out;
+  }
+  
+  .About:hover {
+    font-size: 1.5rem;
+  }
+
+.mosaic-item:hover .mosaic-overlay {
+    opacity: 1;
+}
+
+.mosaic-overlay h3 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.mosaic-overlay p {
+    font-size: 20px;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.main {
+    position: relative; /* Add this */
+  }
+  
+  .content {
+    margin-bottom: 300px; /* Adjust the value as needed */
+  }
+
+/* Timeline images pop out */
+
+.box .vertical a img {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .box .vertical a:hover img {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  span .sitar-image {
+    position: relative;
+    width: 3.2rem;
+    height: 3.2rem;
+    top: -20px;
+    left: 200px;
+}
+  span .veena-image {
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    top: -25px;
+    left: -440px;
+}
+  span .shehnai-image {
+    position: relative;
+    width: 4.2rem;
+    height: 4.2rem;
+    top: -5px;
+    left: -125px;
+}
+  span .harmonium-image {
+    position: relative;
+    width: 3.3rem;
+    height: 3.3rem;
+    top: -25px;
+    left: 185px;
+}
+  span .trumpet-image {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    top: -25px;
+    left: 500px;
+}
+  span .tabla-image {
+    position: relative;
+    width: 3.6rem;
+    height: 3.6rem;
+    top: -25px;
+    left: 250px;
+}
+  span .mridangam-image {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    top: -25px;
+    left: -585px;
+}
+  
+.sitar-image, .veena-image, .shehnai-image, .harmonium-image,.trumpet-image, .tabla-image , .mridangam-image {
+    cursor: pointer;
+}
+
+.sitar-audio, .veena-audio, .shehnai-audio, .harmonium-audio, .trumpet-audio , .tabla-audio, .mridangam-audio {
+    display: none;
+}
+
+
+  

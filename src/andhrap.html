@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andhra Pradesh: Where Tradition Meets Modernity, A Cultural Tapestry</title>
+    <link rel="stylesheet" href="styles/andhrap.css">
+
+    <!-- transition -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #211f1f;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .image-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 15px;
+            left: 30vw;
+            perspective: 1200px;
+            /* Create a 3D effect */
+            transition: box-shadow 0.6s ease;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .image-container .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.4);
+            transition: transform 0.6s ease, background 0.6s ease;
+            transform: rotateX(90deg); /* Start with overlay rotated away */
+        }
+
+        .image-container .overlay h2,
+        .image-container .overlay p {
+            margin: 0;
+            opacity: 0; /* Initial opacity for text */
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        /* Hover Effects */
+        .image-container:hover {
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8); /* Enhanced shadow */
+        }
+
+        .image-container:hover img {
+            transform: scale(1.1) rotate(2deg); /* Slight zoom and rotation */
+        }
+
+        .image-container:hover .overlay {
+            transform: rotateX(0deg); /* Rotate overlay into view */
+            background: rgba(0, 0, 0, 0.6); /* Darker background */
+        }
+
+        .image-container:hover .overlay h2,
+        .image-container:hover .overlay p {
+            opacity: 1; /* Fade in text */
+        }
+
+        .image-container:hover .overlay h2 {
+            transform: translateY(0) rotateX(0); /* Slide up effect with rotation */
+        }
+
+        .image-container:hover .overlay p {
+            transform: translateY(20px) rotateX(10deg); /* Slide up with slight tilt */
+        }
+        .overlay h2{
+            font-family:"Permanent Marker", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.6rem;
+        }
+
+        .overlay p{
+            font-size: 1.1rem;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="boxx">
+        <div class="main">
+            <nav>
+                <div class>
+                    <a href="index.html" class="btn">HOME</a>
+
+                </div>
+                <div>
+                    <a href="maharashtra.html" class="btn">MAHARASHTRA</a>
+                    <a href="delhi.html" class="btn">DELHI</a>
+                    <a href="rajasthan.html" class="btn">RAJASTHAN</a>
+                    <a href="up.html" class="btn">UTTAR PRADESH</a>
+                    <a href="tn.html" class="btn">TAMIL NADU</a>
+                </div>
+            </nav>
+
+            <div class="box"></div>
+            <div class="state">
+                <span>ANDHRA PRADESH</span>
+                <span>Where Tradition Meets Modernity, A Cultural Tapestry</span>
+            </div>
+            <!-- <div class="separation"></div> -->
+
+        </div>
+
+    </div>
+
+    <div class="separation" data-aos="fade-right"></div>
+    <div class="mosaic-section">
+        <div class="mosaic-container">
+            <div class="mosaic-item">
+                <img src="assets/images/Undavalli_Caves.jpeg.jpg" alt="Culture Image 1">
+                <div class="mosaic-overlay">
+                    <h3>Undavalli Caves</h3>
+                    <p>Undavalli Caves, near Vijayawada, are ancient rock-cut caves from the 4th-5th centuries. Known for their impressive four-story structure and a massive reclining Vishnu statue, these caves showcase the artistry and spiritual depth of early Indian architecture.</p>
+                </div>
+            </div>
+            <div class="mosaic-item">
+                <img src="assets/images/lepakshi2.0.webp" alt="Culture Image 2">
+                <div class="mosaic-overlay">
+                    <h3>Lepakshi Nandi Temple</h3>
+                    <p> Lepakshi Nandi Temple, in Andhra Pradesh, is home to a massive 20-foot-high monolithic Nandi statue, one of India’s largest. Facing the Veerabhadra Temple, it’s a stunning example of ancient craftsmanship, surrounded by mythic frescoes and a mysterious hanging pillar.</p>
+                </div>
+            </div>
+            <div class="mosaic-item">
+                <img src="assets/images/amrawati_stupa.jpg" alt="Culture Image 3">
+                <div class="mosaic-overlay">
+                    <h3>Amrawati Stupa</h3>
+                    <p>The Amravati Stupa, built around the 2nd century BCE in Andhra Pradesh, was once one of India's most elaborate Buddhist monuments. Its intricate carvings depicted Buddha's life and ancient tales. Though now mostly in ruins, its remnants are scattered across museums worldwide, showcasing India's rich artistic heritage.</p>
+                </div>
+            </div>
+            <!-- Add more mosaic items as needed -->
+        </div>
+    </div>
+    
+    
+
+<!-- exp -->
+<div class="history-section">
+    <h2>Andhra Pradesh: A Brief Historical Overview</h2>
+    <p>Andhra Pradesh, located in southern India, has a rich history characterized by influential dynasties and cultural developments.</p>
+    
+    <h3>Key Dynasties and strongpires:</h3>
+    <ul>
+        <li><strong>Ancient Kingdoms:</strong> 
+            <ul>
+                <li><strong>Satavahana Dynasty (c. 230 BCE - 220 CE):</strong> Early rulers who established control over the Deccan region, including Andhra. Known for promoting trade and culture.</li>
+            </ul>
+        </li>
+        <li><strong>Chalukya Dynasty (c. 543 CE - 753 CE):</strong> 
+            <ul>
+                <li><strong>Early Chalukyas:</strong> Rulers who influenced the region’s culture and architecture.</li>
+                <li><strong>Western Chalukyas:</strong> Extended their influence into Andhra Pradesh.</li>
+            </ul>
+        </li>
+        <li><strong>Rashtrakuta Dynasty (c. 753 CE - 982 CE):</strong> Known for their extensive empire which included parts of Andhra Pradesh. Contributed to art and culture.</li>
+       
+        <li><strong>Kakatiya Dynasty (c. 1083 CE - 1323 CE):</strong>
+            <ul>
+                <li><strong>Raja Rajendra I:</strong> Prominent ruler known for building architectural marvels like the Warangal Fort and the Thousand Pillar Temple.</li>
+            </ul>
+        </li>
+        <li><strong>Vijayanagara Empire (c. 1336 CE - 1646 CE):</strong> 
+            <ul>
+                <li><strong>Krishnadevaraya:</strong> One of the most notable rulers, known for his patronage of art and literature. The empire made significant contributions to the culture and architecture of Andhra Pradesh</li>
+            </ul>
+        </li>
+        <li><strong>Qutb Shahi Dynasty (c. 1518 CE - 1687 CE):</strong> Rulers of Golconda, known for their contributions to the region’s architecture and culture before the Mughal expansion.</li>
+        <li><strong>Mughal Empire (c. 1526 CE - 1857 CE):</strong> The region came under Mughal control, with the Mughals exerting influence over Andhra Pradesh’s administration and culture.</li>
+        <li><strong>British Raj (c. 1757 CE - 1947 CE):</strong> Andhra Pradesh was part of the Madras Presidency under British rule, contributing to administrative and economic changes in the region.</li>
+        
+    </ul>
+    </div>
+
+    <div class="image-container">
+        <img src="assets/images/and1.webp" alt="RK Beach">
+        <div class="overlay">
+            <div>
+                <h2>Do you know?</h2>
+                <p> Andhra Pradesh boasts the longest coastline of any Indian state on the east coast, offering beautiful beaches like Visakhapatnam's R.K. Beach.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="history-section">
+    <h3>Key Battles:</h3>
+    <ul>
+        <li><strong>Battle of Talikota (1565 CE):</strong> A significant battle where the Vijayanagara Empire was defeated by the Deccan Sultanates, impacting the region’s control..</li>
+        <li><strong>BBattle of Palkhed (1728 CE):</strong> Fought between the Marathas and the Nizam of Hyderabad, influencing regional power dynamics.</li>
+    </ul>
+    
+    <h3>Cultural Significance:</h3>
+    <ul>
+        <li><strong>Monuments:</strong>
+            <ul>
+                <li><strong> Charminar</strong> </li>
+                <li><strong>Golconda Fort</strong> </li>
+            </ul>
+        </li>
+        <li><strong>Festivals:</strong>
+            <ul>
+                <li><strong>Ugadi: </strong> Celebrated as the Telugu New Year.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <p>Andhra Pradesh’s history is marked by influential dynasties, pivotal battles, and a rich cultural legacy, contributing significantly to India’s historical and cultural heritage.</p>
+</div>
+
+
+
+
+
+<!-- transition -->
+    <script>
+        ScrollReveal().reveal('.state', {
+            duration: 1200,
+            origin: 'bottom',
+            distance: '50px',
+            easing: 'ease-in-out',
+            reset: true, // Animation repeats when elstrongent comes into view again
+        });
+    
+        ScrollReveal().reveal('.separation', {
+            duration: 1500,
+            origin: 'left',
+            distance: '100px',
+            easing: 'ease-in-out',
+        });
+    </script>
+
+
+<!-- exp  js -->
+
+    
+
+</body>
+
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West Bengal: Where the Pala dynasty once reigned supreme.</title>
+    <link rel="stylesheet" href="styles/wb.css">
+
+    <!-- transition -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+        
+
+        .image-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 15px;
+            left: 30vw;
+            perspective: 1200px;
+            /* Create a 3D effect */
+            transition: box-shadow 0.6s ease;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+
+        .image-container .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.4);
+            transition: transform 0.6s ease, background 0.6s ease;
+            transform: rotateX(90deg); /* Start with overlay rotated away */
+        }
+
+        .image-container .overlay h2,
+        .image-container .overlay p {
+            margin: 0;
+            opacity: 0; /* Initial opacity for text */
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        /* Hover Effects */
+        .image-container:hover {
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.8); /* Enhanced shadow */
+        }
+
+        .image-container:hover img {
+            transform: scale(1.1) rotate(2deg); /* Slight zoom and rotation */
+        }
+
+        .image-container:hover .overlay {
+            transform: rotateX(0deg); /* Rotate overlay into view */
+            background: rgba(0, 0, 0, 0.6); /* Darker background */
+        }
+
+        .image-container:hover .overlay h2,
+        .image-container:hover .overlay p {
+            opacity: 1; /* Fade in text */
+        }
+
+        .image-container:hover .overlay h2 {
+            transform: translateY(0) rotateX(0); /* Slide up effect with rotation */
+        }
+
+        .image-container:hover .overlay p {
+            transform: translateY(20px) rotateX(10deg); /* Slide up with slight tilt */
+        }
+        .overlay h2{
+            font-family:"Permanent Marker", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 4.6rem;
+        }
+
+        .overlay p{
+            font-size: 1.1rem;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="boxx">
+        <div class="main">
+            <nav>
+                <div class>
+                    <a href="index.html" class="btn">HOME</a>
+
+                </div>
+                <div>
+                    <a href="maharashtra.html" class="btn">MAHARASHTRA</a>
+                    <a href="delhi.html" class="btn">DELHI</a>
+                    <a href="rajasthan.html" class="btn">RAJASTHAN</a>
+                    <a href="up.html" class="btn">UTTAR PRADESH</a>
+                    <a href="tn.html" class="btn">TAMIL NADU</a>
+                </div>
+            </nav>
+
+            <div class="box"></div>
+            <div class="state">
+                <span>West Bengal</span>
+                <span>Where The Pala Dynasty Once Reigned Supreme.</span>
+            </div>
+            <!-- <div class="separation"></div> -->
+
+        </div>
+
+    </div>
+
+    <div class="separation" data-aos="fade-right"></div>
+    <div class="mosaic-section">
+        <div class="mosaic-container">
+            <div class="mosaic-item">
+                <img src="assets/images/Durga.png" alt="Culture Image 1">
+                <div class="mosaic-overlay">
+                    <h3>Durga Puja</h3>
+                    <p>Durga Puja in Kolkata is a grand, five-day festival celebrating the goddess Durga. The city comes alive with elaborate pandals, artistic idols, and cultural performances. It’s a time of joy, devotion, and community, showcasing Kolkata’s rich cultural heritage and creativity.</p>
+                </div>
+            </div>
+            <div class="mosaic-item">
+                <img src="assets/images/Rasgulla.png" alt="Culture Image 2">
+                <div class="mosaic-overlay">
+                    <h3>Rasgulla</h3>
+                    <p>Rasgulla is a popular Indian dessert made from soft, spongy balls of chhena (curdled milk) soaked in sugar syrup. Originating in Bengal, it's a sweet treat loved for its light, melt-in-the-mouth texture and delicate sweetness.</p>
+                </div>
+            </div>
+            <div class="mosaic-item">
+                <img src="assets/images/Howrah Bridge.jpg" alt="Culture Image 3">
+                <div class="mosaic-overlay">
+                    <h3>Howrah Bridge</h3>
+                    <p>Howrah Bridge, an iconic symbol of Kolkata, is a massive cantilever bridge over the Hooghly River. Opened in 1943, it connects Howrah and Kolkata without using any nuts and bolts. The bridge is a marvel of engineering and one of the busiest in the world, carrying both vehicles and pedestrians daily.</p>
+                </div>
+            </div>
+            <!-- Add more mosaic items as needed -->
+        </div>
+    </div>
+    
+    
+
+<!-- exp -->
+<div class="history-section">
+    <h2>West Bengal: A Brief Historical Overview</h2>
+    <p>West Bengal, located in eastern India, has a rich history characterized by influential dynasties, strategic battles, and a vibrant cultural heritage.</p>
+    
+    <h3>Key Dynasties and strongpires:</h3>
+    <ul>
+        <li><strong>Ancient Period:</strong> 
+            <ul>
+                <li><strong>Maurya Dynasty (c. 322 BCE - 185 BCE): </strong> The region was part of the Mauryan Empire under Ashoka, who promoted Buddhism.</li>
+            </ul>
+        </li>
+        <li><strong>Gupta Empire (c. 320 CE - 550 CE):</strong> The Gupta Empire influenced West Bengal through trade and culture, contributing to the region's development.</li>
+        <li><strong>Pala Dynasty (c. 750 CE - 1174 CE)</strong> 
+            <ul>
+                <li><strong>Gopala and Dharmapala:</strong> Prominent rulers known for their support of Buddhism and establishment of universities like Nalanda</li>
+            </ul>
+        </li>
+        <li><strong>Sena Dynasty (c. 1097 CE - 1230 CE):</strong> Known for their influence on Bengali culture and society before the Muslim invasions.</li>
+        <li><strong>Mughal Empire (c. 1526 CE - 1857 CE):</strong> 
+            <ul>
+                <li><strong>Akbar:</strong> Established control over Bengal, making it a prosperous region within the Mughal Empire</li>
+            </ul>
+        </li>
+        <li><strong>British Raj (c. 1757 CE - 1947 CE):</strong>
+            <ul>
+                <li><strong>Battle of Plassey (1757 CE):</strong>Marked the beginning of British control in Bengal.</li>
+                <li>West Bengal became a major administrative and economic center under British rule.</li>
+            </ul>
+        </li>
+        <li><strong>Post-Independence (1947 CE - Present):</strong> 
+            <ul>
+                <li>West Bengal was formed as a state in independent India and has been a significant cultural and political region.</li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+
+    <div class="image-container">
+        <img src="assets/images\wb1.png" alt="Tea garden">
+        <div class="overlay">
+            <div>
+                <h2>Do you know?</h2>
+                <p> West Bengal is famous for its Darjeeling tea, often called the "Champagne of Teas.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="history-section">
+    <h3>Key Battles:</h3>
+    <ul>
+        <li><strong>Battle of Plassey (1757 CE):</strong> The British East India Company defeated the Nawab of Bengal, leading to British dominance in India.</li>
+        <li><strong>Battle of Buxar (1764 CE):</strong> Consolidated British control over Bengal and much of northern India.</li>
+    </ul>
+    
+    <h3>Cultural Significance:</h3>
+    <ul>
+        <li><strong>Monuments:</strong>
+            <ul>
+                <li><strong>Howrah Bridge,</strong></li>
+                <li><strong>Victoria Memorial</strong></li>
+            </ul>
+        </li>
+        <li><strong>Festivals:</strong>
+            <ul>
+                <li><strong> Durga Puja</strong> Celebrated with grandeur in Kolkata.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <p>West Bengal's history is marked by influential dynasties, pivotal battles, and a rich cultural legacy, making it a significant region in India's historical and cultural landscape.</p>
+</div>
+
+<!-- transition -->
+    <script>
+        ScrollReveal().reveal('.state', {
+            duration: 1200,
+            origin: 'bottom',
+            distance: '50px',
+            easing: 'ease-in-out',
+            reset: true, // Animation repeats when elstrongent comes into view again
+        });
+    
+        ScrollReveal().reveal('.separation', {
+            duration: 1500,
+            origin: 'left',
+            distance: '100px',
+            easing: 'ease-in-out',
+        });
+    </script>
+
+
+<!-- exp  js -->
+
+    
+
+</body>
+
+</html>
